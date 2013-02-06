@@ -2,18 +2,15 @@
 /scaffold-java-arquiteture/target/
 
 # OS generated files #
-######################
-.DS_Store*
+.DS_Store
 ehthumbs.db
 Icon?
 Thumbs.db
 
 # Compiled source #
-###################
 *.class
 
 # Eclipse generated files #
-###########################
 .classpath
 .project
 .settings
