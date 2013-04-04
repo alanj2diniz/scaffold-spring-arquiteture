@@ -1,7 +1,7 @@
-scaffold-java-arquiteture
+scaffold-spring-arquiteture
 =========================
 
-Scaffold project using Spring, Hibernate, JPA, JSF, Maven, JUnit technologies.
+Scaffold project using Spring, Hibernate, JPA, JSF, Maven technologies.
 
 
 
