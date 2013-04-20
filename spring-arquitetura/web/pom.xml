@@ -71,7 +71,7 @@
 	</dependencies>
 	
 	<build>
-        <finalName>${project.artifactId}</finalName>
+        <finalName>spring-arquiteture</finalName>
         <plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
