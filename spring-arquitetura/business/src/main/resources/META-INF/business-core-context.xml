@@ -20,6 +20,10 @@
     <context:annotation-config />
     <tx:jta-transaction-manager/>
     
+    <context:component-scan base-package="br.com.ddark.entity" />
+    <context:component-scan base-package="br.com.ddark.repository" />
+    <context:component-scan base-package="br.com.ddark.service" />
+    
 	<jee:jndi-lookup id="dataSource" jndi-name="persistence/SpringArquiteturaPU"/>
 	
 	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
