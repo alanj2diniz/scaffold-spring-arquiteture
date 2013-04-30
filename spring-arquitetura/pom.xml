@@ -16,11 +16,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mysql.version>5.1.23</mysql.version>
         <hibernate.version>4.2.0.CR1</hibernate.version>
-        <spring.version>3.2.1.RELEASE</spring.version>
+        <spring.version>3.2.2.RELEASE</spring.version>
         <spring-security.version>3.1.3.RELEASE</spring-security.version>
         <jsf.version>2.1.17</jsf.version>
         <jstl.version>1.2</jstl.version>
-        <servlet.version>3.0-alpha-1</servlet.version>
+        <servlet.version>2.5</servlet.version>
         <primefaces.version>3.5</primefaces.version>
         <theme.version>1.0.1</theme.version>
         <java.version>1.6</java.version>
@@ -64,9 +64,8 @@
             <artifactId>guava</artifactId>
             <version>12.0</version>
         </dependency>
+      	</dependencies>
 
-    </dependencies>
-	
   <modules>
     <module>business</module>
     <module>web</module>

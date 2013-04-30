@@ -8,12 +8,17 @@ import br.com.ddark.service.IPessoaService;
 
 public class SpringTest extends AbstractTest {
 	
-	@Autowired
-	private IPessoaService pessoaService;
+//	@Autowired
+//	private IPessoaService pessoaService;
+//	
+//	@Test
+//	public void injectionTest() {
+//		Assert.assertNotNull(pessoaService);
+//	}
 	
 	@Test
-	public void injectionTest() {
-		Assert.assertNotNull(pessoaService);
+	public void test() {
+		
 	}
 
 }
